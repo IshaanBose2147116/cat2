@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 0, 196);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    width: 50%;
+    background-color: rgb(255, 246, 255);
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 30%;
+    margin-bottom: 1em;
+}
+
+#submit {
+    width: 20%;
+}
+
+.error-text {
+    color: red;
+}
+
+.password-errors {
+    color: red;
+    display: none;
+}

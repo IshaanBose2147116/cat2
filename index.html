@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateways 2022 - Registration</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+</head>
+<body>
+    <div class="container">
+        <form class="form-container" id="form">
+            <h1>Registration Form</h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-input" />
+            <span class="error-text" id="name-error"></span>
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" class="form-input" />
+            <span class="error-text" id="branch-error"></span>
+            <label for="uni">College/University Name:</label>
+            <input type="text" id="uni" class="form-input" />
+            <span class="error-text" id="uni-error"></span>
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="form-input" />
+            <span class="error-text" id="email-error"></span>
+            <label for="state">State:</label>
+            <input type="text" id="state" class="form-input" />
+            <span class="error-text" id="state-error"></span>
+            <label for="address">Address:</label>
+            <input type="text" id="address" class="form-input" />
+            <span class="error-text" id="address-error"></span>
+            <label for="age">Age:</label>
+            <input type="text" id="age" class="form-input" />
+            <span class="error-text" id="age-error"></span>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" class="form-input" />
+            <span class="error-text" id="phone-error"></span>
+            <label for="username">Username:</label>
+            <input type="text" id="username" class="form-input" />
+            <span class="error-text" id="username-error"></span>
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="form-input" />
+            <div class="password-errors" id="password-errors">
+                <ul>
+                    <li id="pswd-lower">min 1 lower case letter</li>
+                    <li id="pswd-upper">min 1 upper case letter</li>
+                    <li id="pswd-num">min 1 numeric character</li>
+                    <li id="pswd-special">min 1 special character (~`!@#$%^&amp;*()-_+={}[]|\;:&quot;&lt;&gt;,./?)</li>
+                    <li id="pswd-cond">At least 1 upper case, numeric, and special character must be EMBEDDED somewhere in
+                        the middle of the password, and not just be the first or the last character of the password
+                        string.</li>
+                </ul>
+            </div>
+            <input type="submit" id="submit" value="Submit" />  
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

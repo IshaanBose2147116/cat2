@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<christ>
+    <computer-science>
+        <stu-name>Ishaan Bose</stu-name>
+        <stu-university>CHRIST</stu-university>
+        <stu-phone>9930792976</stu-phone>
+        <stu-email>ishaan.bose@christ.com</stu-email>
+    </computer-science>
+    <computer-science>
+        <stu-name>Jon Doe</stu-name>
+        <stu-university>CHRIST</stu-university>
+        <stu-phone>9912442976</stu-phone>
+        <stu-email>jon.doe@christ.com</stu-email>
+    </computer-science>
+    <computer-science>
+        <stu-name>Jane Doe</stu-name>
+        <stu-university>Mithibai</stu-university>
+        <stu-phone>9331792976</stu-phone>
+        <stu-email>jane.doe@mithibai.com</stu-email>
+    </computer-science>
+</christ>
